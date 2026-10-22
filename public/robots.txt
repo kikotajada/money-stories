@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /first-year-investing/thanks
+
+Sitemap: https://money-stories.ch/sitemap.xml
