@@ -1,0 +1,4 @@
+netlify/_templates.mjs
+.netlify/
+.env
+node_modules/
