@@ -14,7 +14,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 PUB = ROOT / "public"
 
 # Fill in once Kiko creates the Stripe Payment Link (live mode, CHF 29 incl. VAT).
-STRIPE_LINK = ""
+STRIPE_LINK = "https://buy.stripe.com/eVq00kdnEfbBcKd4KT38404"
 PRICE = "CHF 29"
 # Buyer download links (Drive). Filled in once the files are in the shared folder.
 SHEET_ID = ""          # Google Sheet id of the calculator

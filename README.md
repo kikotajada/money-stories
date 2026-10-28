@@ -22,7 +22,7 @@ Header and footer of the inner pages live in `scripts/build_pages.py`.
 ## Paid kit and download page
 
 - The Stripe Payment Link must redirect after payment to `https://money-stories.ch/first-year-investing/thanks?session_id={CHECKOUT_SESSION_ID}` (exactly like that; Stripe fills in the ID).
-- Netlify environment variables: `STRIPE_KEY` (secret; restricted key, read access to Checkout Sessions only) and optionally `PLINK_FIRST_YEAR_INVESTING` (the `plink_…` ID) so only this kit's payments unlock the page.
+- Netlify environment variables: `STRIPE_KEY` (secret; restricted key, read access to Checkout Sessions only) and optionally `PLINK_FIRST_YEAR_INVESTING` = `plink_1UVSSCLqHnYqa4t91HqhlglJ` so only this kit's payments unlock the page.
 - `STRIPE_LINK`, `SHEET_ID` and `PDF_FILE_ID` at the top of `scripts/build_pages.py` hold the buy link and the Drive download IDs. Until `STRIPE_LINK` is set, the buy buttons show "Coming soon".
 
 ## Hosting (Netlify)
